@@ -1,0 +1,64 @@
+body{
+		margin:0px;
+		padding:0px;
+		font-family:"Baloo Da 2";
+		}
+.one{
+		background-color:#13127b;
+		padding:4px;
+		width:90%;
+	 margin:1pc auto;
+	 border:3px double #aeaeae;
+		border-radius:10px;
+		}
+.two{
+		background-color:#aa00ff;
+		padding:5px;
+		border:3px double #aeaeae;
+		border-radius:10px;
+		}
+.three{
+		background-color:#426a8d;
+		padding:5px;
+		border:3px double #aeaeae;
+		border-radius:10px;
+		}
+.four{
+		background-color:#aeaeae;
+		padding:5px;
+		border:3px double #aeaeae;
+		border-radius:10px;
+		}
+.first{
+		background-color:#dfdfdf;
+		text-align:center;
+		padding:10px;
+		margin:20px;
+		border:3px double #aeaeae;
+		border-radius:10px;
+		}		
+.second{
+		background-color:#dfdfdf;
+		text-align:center;
+		padding:15px;
+		margin:20px;
+		border:3px double #aeaeae;
+		border-radius:10px;
+		}				
+.that{
+		margin:1.5pc auto;
+		}		
+.me, .you{
+		font-size:25px;
+		font-weigt:bold;
+		}		
+		
+		
+/* MEDIA QUERY BEGINS */		
+@media(min-width:768px){
+.one{
+		width:55%;
+		margin-top:5pc;
+		}
+		
+	}		

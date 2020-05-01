@@ -1,0 +1,87 @@
+body{
+		margin:0;
+		padding:0;
+		background-color:#f4f4f4;
+		font-family:"Baloo Da 2";
+		}
+.head{
+		font-family:"Dancing Script";
+		text-align:center;
+		margin:auto;
+		font-size:60px;
+		width:80%;
+		padding:10px;
+		}
+.magic{
+		background-color:#dbdbdb;
+		width:80%;
+		margin:auto;
+		border:2px double #aeaeae;
+		border-radius:15px 30px;
+		padding:10px;
+		overflow:hidden;
+		}
+.zero{
+		text-align:center;
+		font-size:10pc;
+		}
+.increase, .decrease{
+		width:80%;
+		margin:auto;
+		}
+.in_count, .de_count{
+		font-family:"Baloo Da 2";
+		width:80%;
+		padding:10px;
+		margin:.5pc auto;
+		border:1.5px double #aeaeae;
+		outline:none;
+		border-radius:7px;
+		font-size:16px;
+		}
+.in_count{
+		margin-top:1.5pc;
+		}
+.in_count:hover, .de_count:hover{
+		background-color:#888;
+		color:white;
+		}
+.one, .two{
+		margin:auto;
+		width:85%;
+		}
+.flex{
+		display:flex;
+		justify-content: space-around;
+		margin:3.5pc auto 3pc auto;
+		padding:10px;
+		}
+.facts, .why{
+		width:40%;
+		text-align:center;
+		border-radius:0% 20%;
+		border:2px inset grey;
+		}
+.facts{
+		background-color:lightblue;
+		}
+.why{
+		background-color:lightblue;
+		border-radius:20% 0%;
+		}
+.zero_facts, .why_in{
+		padding:5px 20px;
+		colo:white;
+		}
+
+
+/* MEDIA QUERY BEGINS */
+
+@media(min-width:768px){
+.whole{
+		width:55%;
+		margin:auto;
+		}				
+		
+	}
+
